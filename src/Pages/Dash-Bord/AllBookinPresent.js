@@ -7,7 +7,7 @@ const AllBookinPresent = () => {
 
     const { user } = useContext(AuthContext);
 
-    const url = `http://localhost:5000/users`;
+    const url = `https://car-buy-server.vercel.app/users`;
 
     //    --------- TenStand Query------------
     const { data: booking = [], } = useQuery({

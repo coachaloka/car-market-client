@@ -14,7 +14,7 @@ const MyOrder = () => {
     const { data: MyBookingCar = [] } = useQuery({
         queryKey: ['allBooking'],
         queryFn: async () => {
-            const res = await fetch(`http://localhost:5000/bookings/${user?.email}`);
+            const res = await fetch(`https://car-buy-server.vercel.app/bookings/${user?.email}`);
             const data = await res.json();
             return data;
         },

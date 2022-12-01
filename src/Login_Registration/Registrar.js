@@ -95,7 +95,7 @@ const Registrar = () => {
 
     const saveDatabsetInformation = (name, email, AccountType, userPhoto) => {
         const users = { name, email, AccountType, userPhoto }
-        fetch('http://localhost:5000/users', {
+        fetch('https://car-buy-server.vercel.app/users', {
             method: 'POST',
             headers: {
                 'content-type': 'application/json'

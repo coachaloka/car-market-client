@@ -31,13 +31,13 @@ const router = createBrowserRouter([
             {
                 path: '/cetegories',
                 element: <CarCategori />,
-                // loader: ({ params }) => fetch(`http://localhost:5000/cetegories/${params.id}`)
+                // loader: ({ params }) => fetch(`https://car-buy-server.vercel.app/cetegories/${params.id}`)
 
             },
             {
                 path: '/cetegories/:id',
                 element: <PrivetRoute><CategorieID /></PrivetRoute>,
-                loader: ({ params }) => fetch(`http://localhost:5000/cetegories/${params.id}`)
+                loader: ({ params }) => fetch(`https://car-buy-server.vercel.app/cetegories/${params.id}`)
             },
             {
                 path: '/block',

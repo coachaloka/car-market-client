@@ -14,7 +14,7 @@ const UserBooking = () => {
     const { data: MyBookingCar = [], isLoading } = useQuery({
         queryKey: ['allBooking'],
         queryFn: async () => {
-            const res = await fetch(`http://localhost:5000/advertic/${user?.email}`);
+            const res = await fetch(`https://car-buy-server.vercel.app/advertic/${user?.email}`);
             const data = await res.json();
             return data;
         },
@@ -22,7 +22,7 @@ const UserBooking = () => {
 
     // if serller kinba user 
     const [sellerss, setSeller] = useState()
-    const url = `http://localhost:5000/${user?.email}`;
+    const url = `https://car-buy-server.vercel.app/${user?.email}`;
 
 
     useEffect(() => {

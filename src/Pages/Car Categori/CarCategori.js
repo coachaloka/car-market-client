@@ -9,7 +9,7 @@ const CarCategori = () => {
     const { data: services = [], } = useQuery({
         queryKey: ['services'],
         queryFn: async () => {
-            const res = await fetch(`http://localhost:5000/cetegories`);
+            const res = await fetch(`https://car-buy-server.vercel.app/cetegories`);
             const data = await res.json();
             return data;
         }

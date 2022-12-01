@@ -12,7 +12,7 @@ const Header = () => {
 
     const [sellerss, setSeller] = useState()
 
-    const url = `http://localhost:5000/users/${user?.email}`;
+    const url = `https://car-buy-server.vercel.app/users/${user?.email}`;
 
     const [loding, setLoding] = useState(true);
 

@@ -62,7 +62,7 @@ const AddProduct = () => {
 
         console.log(order)
 
-        fetch('http://localhost:5000/productAdd', {
+        fetch('https://car-buy-server.vercel.app/productAdd', {
             method: 'POST',
             headers: {
                 'Content-Type': 'application/json',
