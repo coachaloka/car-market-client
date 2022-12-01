@@ -58,7 +58,7 @@ const UserBooking = () => {
     return (
         <>
             {
-                MyBookingCar.length && < h1 h1 className='md:text-4xl text-2xl  text-gray-700 text-bold font-mono py-5 text-center'>Seller Product Eidite <span className='text-amber-600'>Resell Cars</span> Collection </h1>
+                MyBookingCar.length && < h1 h1 className='md:text-4xl text-2xl  text-gray-700 text-bold font-mono py-5 text-center'>Edit Sellers Product <span className='text-amber-600'>Resell Cars</span> Collection </h1>
 
             }
             {
