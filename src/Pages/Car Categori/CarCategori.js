@@ -46,7 +46,7 @@ const CarCategori = () => {
                                         </a>
                                         <p className="leading-snug dark:text-gray-400">{item?.paragrap.slice(0, 250)}</p>
                                         <div className="flex justify-center mt-3" >
-                                            <Link to={`/cetegories/${item?.id}`} key={item?.id} ><button className="btn md:px-12 btn-primary my-2">viewss all cars</button></Link>
+                                            <Link to={`/cetegories/${item?.id}`} key={item?.id} ><button className="btn md:px-12 bg-cyan-700 my-2">Views Cars</button></Link>
                                         </div>
                                     </div>
                                 </div>
