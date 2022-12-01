@@ -96,7 +96,7 @@ const CategorieID = () => {
                                         <h1 className=''> Resell Price : <span className='text-amber-200'>{item?.orginalPrice}. </span></h1>
                                         <p className="leading-snug dark:text-gray-400">{item?.text.slice(0, 250)}</p>
                                         <div className="flex justify-center mt-3" >
-                                            <label onClick={() => setBookItem(item)} htmlFor="bookin-modal" className="btn md:px-12 btn-primary my-2">Booking Now</label>
+                                            <label onClick={() => setBookItem(item)} htmlFor="bookin-modal" className="btn md:px-12 btn-primary my-2">Book Now</label>
 
                                         </div>
                                     </div>
