@@ -5,7 +5,7 @@ const HomeBanner = () => {
     <div className="hero bg-base-200 mt-5">
       <div className="hero-content flex-col lg:flex-row-reverse">
         <img
-          src=""
+          src="https://images.unsplash.com/photo-1485463611174-f302f6a5c1c9?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8N3x8Y2FyJTIwc2VsbHxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60"
           className="w-1/2 rounded-lg shadow-2xl"
           alt="hero-img"
         />

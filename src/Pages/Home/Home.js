@@ -8,6 +8,7 @@ import useTitle from "../../hook/useTitle";
 import UserBooking from "./AllBooking/UserBooking";
 import AllProductImg from "./All product img/AllProductImg";
 import Revewsproduct from "./reviews/Reviewsproduct";
+import HomeBanner from "./HomeBanner/HomeBanner";
 
 const Home = () => {
   const [bannerImage, setBannerImage] = useState();
@@ -29,6 +30,7 @@ const Home = () => {
 
   return (
     <>
+    <HomeBanner />
       {/* <section className='mb-0 h-[auto] mt-[62px] bg-gray-800 md:pb-5'>
                 <div className="carousel w-full bg-gray-500">
                     {
