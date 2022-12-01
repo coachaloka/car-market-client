@@ -1,6 +1,6 @@
-# Getting Started with Create React App
+# Car Point
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Car point is an ecommerce website to sell and buy used cars from person and company. 
 
 ## Available Scripts
 
