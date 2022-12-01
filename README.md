@@ -11,10 +11,10 @@ Car point is an ecommerce website to sell and buy used cars from person and comp
 7. Firebase
 
 ### Admin Credential
-admin email: smrity@gmail.com
-password: 123456
+{admin email: smrity@gmail.com}
+{password: 123456}
 
 ### Admin Credential
-buyer email: felixkubi@gmail.com
-password: 123456
+{user email: felixkubi@gmail.com
+password: 123456}
 
