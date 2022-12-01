@@ -11,7 +11,7 @@ const HomeBanner = () => {
         />
         <div>
           <h1 className="text-4xl font-bold text-cyan-700">
-            Sell and Buy your Cars and Get Earned!
+            Sell and Buy your Cars and Get Earned A lot!
           </h1>
           <p className="py-6">
             We create a huge network to share your used Cars and to earn

@@ -66,7 +66,6 @@ const Pement = () => {
                                 <button type="submit" className="mt-5 btn bg-cyan-700">Submit</button>
                             </form>
                         </div>
-
                     </div>
                 </div>
             </section>
