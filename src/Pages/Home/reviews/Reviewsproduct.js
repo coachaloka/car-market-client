@@ -25,7 +25,7 @@ const Revewsproduct = () => {
                             </div>
                             <div className="flex flex-col items-center justify-center p-8 rounded-b-lg dark:bg-violet-400 dark:text-gray-900">
                                 <img src="https://source.unsplash.com/50x50/?portrait?1" alt="" className="w-16 h-16 mb-2 -mt-16 bg-center bg-cover rounded-full dark:bg-gray-500 dark:bg-gray-700" />
-                                <p className="text-xl font-semibold leading-tight">Timtim Ghagra</p>
+                                <p className="text-xl font-semibold leading-tight">Tritia Mandal</p>
                                 <p className="text-sm uppercase">Bangladesh</p>
                             </div>
                         </div>
@@ -43,7 +43,7 @@ const Revewsproduct = () => {
                             </div>
                             <div className="flex flex-col items-center justify-center p-8 rounded-b-lg dark:bg-violet-400 dark:text-gray-900">
                                 <img src="https://source.unsplash.com/50x50/?portrait?2" alt="" className="w-16 h-16 mb-2 -mt-16 bg-center bg-cover rounded-full dark:bg-gray-500 dark:bg-gray-700" />
-                                <p className="text-xl font-semibold leading-tight">Mr. Feelix Kubi</p>
+                                <p className="text-xl font-semibold leading-tight">Mr. Alaka Rani</p>
                                 <p className="text-sm uppercase">Landon</p>
                             </div>
                         </div>
@@ -63,7 +63,7 @@ const Revewsproduct = () => {
                             </div>
                             <div className="flex flex-col items-center justify-center p-8 rounded-b-lg dark:bg-violet-400 dark:text-gray-900">
                                 <img src="https://source.unsplash.com/50x50/?portrait?4" alt="" className="w-16 h-16 mb-2 -mt-16 bg-center bg-cover rounded-full dark:bg-gray-500 dark:bg-gray-700" />
-                                <p className="text-xl font-semibold leading-tight">Epa Ghagra</p>
+                                <p className="text-xl font-semibold leading-tight">Mark Mia</p>
                                 <p className="text-sm uppercase">Rajshahi</p>
                             </div>
                         </div>

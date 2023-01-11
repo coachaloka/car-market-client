@@ -8,7 +8,7 @@ export class Footer extends Component {
                     <div className="lg:w-1/3">
                         <a rel="noopener noreferrer" href="#" className="flex justify-center space-x-3 lg:justify-start">
                             
-                            <span className="self-center text-4xl font-semibold">Car<span className='text-[15px] text-amber-600'>Point</span></span>
+                            <span className="self-center text-4xl font-semibold">Car<span className='text-[15px] text-amber-600'>Hub</span></span>
                         </a>
                     </div>
                     <div className="grid grid-cols-2 text-sm gap-x-3 gap-y-8 lg:w-2/3 sm:grid-cols-4">
@@ -76,7 +76,7 @@ export class Footer extends Component {
                         </div>
                     </div>
                 </div>
-                <div className="py-6 text-sm text-center dark:text-gray-400">© 2022 Bachan Kubi Inc. All rights reserved.</div>
+                <div className="py-6 text-sm text-center dark:text-gray-400">© 2023 Aloka Coach Inc. All rights reserved.</div>
             </footer>
         )
     }

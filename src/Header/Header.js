@@ -52,7 +52,7 @@ const Header = () => {
                     {/* ---------logo show lg:--------- */}
                     <div className='hidden lg:block'>
                         <div className='flex'>
-                            <Link to='/' className='mx-1 flex items-center font-bold text-2xl text-amber-500'>Car<span className='text-white text-[13px] mt-2'>Point</span></Link>
+                            <Link to='/' className='mx-1 flex items-center font-bold text-2xl text-amber-500'>Car<span className='text-white text-[13px] mt-2'>Hub</span></Link>
                         </div>
                     </div>
                     {/* ------droup down -------------- */}
